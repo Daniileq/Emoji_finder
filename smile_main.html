@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Emogi Finder</title>
+</head>
+<body>
+    <header class=" header">
+        <h1 class="h1">
+            Emoji Finder
+        </h1>
+        <h4 class="h4">
+            Find emoji by keywords
+        </h4>
+        <input  id="text" placeholder="Placeholder"  class=" input" value=""/>
+
+    </header>
+
+    
+    <div class="container">
+    <div id = "box_cards" class = "content">
+        
+    </div>
+</div>
+
+    <script src="skript.js">
+
+    </script>
+    
+    <style>
+        body{
+            font-family: 'Alef', sans-serif;
+            font-family: 'Nunito', sans-serif;
+            background: #D4D3D8;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+        }
+        .header{
+            margin-top: 0;
+            background-color:#196B78;
+            padding-bottom: 0px;
+        }
+        .h1{
+
+            font-size: 72px;
+            padding-top: 64px;
+            margin-bottom: 12px;
+        }
+        .h4{
+            padding-bottom: 64px;
+        }
+        h1,h4{  
+            margin-top: 0px;
+            margin-bottom: 0px;
+            text-align: center;
+            color: #CCF8FF;
+        }
+        .input{
+            position: relative;
+            width: 820px;
+            height: 64px;
+            margin-left: 310px;
+            border: 1px solid #CED4DA;
+        }
+        input::placeholder {
+            position: absolute;
+            color: #ABB5BE;
+            font-size: 24px;
+            margin-left: 22px;
+            margin-top: 18px;
+            margin-bottom: 18px;
+            border-radius: 4px;
+}
+        .container{
+            
+            box-sizing: border-box;
+            max-width: 1060px;
+            margin: 0 auto; 
+}
+        .content{
+            margin-top: 48px;
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: wrap;
+            gap : 19px;
+        }
+
+        .elem{
+            padding-top: 29px;
+            background-color: white;
+            text-align: center;
+            width: 316px;
+            height: 184px;
+            
+        }
+        .smile{
+            font-size: 48px;
+        }
+        .text1{
+            margin-top: -15px;
+
+        }
+        .text2{
+            margin-top: -10px;
+            color:#3F444A;
+            font-size: 12px;
+        }
+
+
+    </style>
+</body>
+</html>
